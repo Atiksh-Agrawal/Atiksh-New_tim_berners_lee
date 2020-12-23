@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#Welcome {
+    background: linear-gradient(#03ecfc 10%, #03fc31 100%);
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #000000;
+    opacity: 0.89;
+    display: table;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#Bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#Image {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#Name {
+    font-size: 30px;
+    font-family: cursive;
+
+}
+
+h2 {
+    font-size: 20px;
+    font-family: monospace;
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+
+
+
+p {
+    font-size: 20px;
+    font-family: fantasy;
+    line-height: 1.6;
+    margin: 25px auto;
+    max-width: 450px;
+    text-align: center;
+}
+
+.parrallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: monospace;
+    line-height: 1.2;
+    font-weight: 300;
+    text-align: center;
+}
+
+.Line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
